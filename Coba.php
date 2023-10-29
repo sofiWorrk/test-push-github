@@ -3,7 +3,7 @@ class Coba
 {
     private string $nama;
 
-    // Dengan cara get dan set
+    // Set data dengan cara get dan set
     public function setNama(string $nama)
     {
         ($this->nama = $nama) ? $this->nama : 0;
